@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Scan Payment</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 100%;
+      min-height: 100vh;
+      background-color: #8b0000;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      padding: 15px;
+    }
+
+    .payment {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+
+  <img
+    class="payment"
+    src="./pay.png"
+    alt="QR Code สำหรับชำระเงิน"
+  >
+
+</body>
+</html>
